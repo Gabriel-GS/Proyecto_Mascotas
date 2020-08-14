@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "Gotham";
+    src: url("./GothamBook.ttf");
+}
+
+*{
+    font-family: "Gotham";
+}
+
+.fondo_contactanos {
+    width: 100%;
+    position: absolute;
+
+}
+
+.logo {
+    width: 180px;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    padding-top: 74px;
+}
+.espacio1{
+    width: 239px;
+    margin-bottom: 23px;
+
+}
+.boton{
+    width: 70px;
+    background-color: rgb(245, 207, 83);
+}
+
