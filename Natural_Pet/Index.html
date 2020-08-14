@@ -14,70 +14,76 @@
   <body>
 <!-- ------------------- BARRA DE NAVEGACION ----------------------- -->
 
-    <div class="header">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <img class="logo" src="./assets/img/Collages/logo.png" alt="">
-        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Proposito</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Ayuda...
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a target="_blank" class="dropdown-item" href="https://local.mx/zonas/zona-sur/tlalpan/veterinaria-gratuita-tlalpan/">Centros de ayuda</a>
-                <a class="dropdown-item" href="">Contactanos</a>
-                <div class="dropdown-divider"></div>
-                <a target="_blank" class="dropdown-item" href="https://www.google.com/maps">Ubicanos</a>
-              </div>
-            </li>
-           
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
-      <h1>BIENVENIDO</h1>
-      <H2>En está web podrás encontrar los cuidados indespensables para tu mascota!!!</H2>
+<header class="header">
+    
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    <img src="./assets/img/Collages/Sin-título-2-02.png" width="150" height="75" alt="" loading="lazy">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <ul class="navbar-nav ml-auto"></ul>
+      <div class="navbar-nav">
+      <a class="nav-link" href="#" style="color: white;">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-link" href="#mascotas" style="color: white;">Tipo de Mascota</a>
+      <a class="nav-link" href="#" style="color: white;">Tips</a>
+      <a class="nav-link" href="#" style="color: white;">Contactanos</a>
+    
+  </div>
+  </div>
+  
+</nav>
+<!-- <div class="trapezoid "></div> -->
 
-    </div>
+</header>
 
     
     <!-- ---------- TARJETAS  -------- -->
+   <div class="tarjetas" id="mascotas">
+     <div class="perro">
+      <div class="card animal intento2">
+        <img src="https://i1.sndcdn.com/avatars-000560768412-fgpz9h-t500x500.jpg" class="card-img-top" alt="...">
+        <div class="card-body intento">
+          <h5 class="card-title">Perros!!</h5>
+          <div class="juntar">
+            <p class="card-text">Conocé más...</p>
+          <a href="#headingOne">
+            <button type="button" class="btn btn-outline-warning">Guau!</button>
+          </a>
+          </div>
+          
+          
 
-    <div class="row cards_div d-flex justify-content-center align-items-center">
-
-      <div class="card col-9 col-sm-6 col-md-4 col-lg-4" style="width: 10rem; margin-right: 50px;">
-        <img src="https://i1.sndcdn.com/avatars-000560768412-fgpz9h-t500x500.jpg" class="animal_pic card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Para el lomito</h5>
-          <p class="card-text">Cuidados básicos para tu perr-hijo, juguetes y limpieza.</p>
-          <div><a href="#" class="d-flex justify-content-end btn btn-primary">Perros</a></div>
         </div>
       </div>
 
-      <div class="card col-9 col-sm-6 col-md-4 col-lg-4" style="width: 10rem; margin-left: 50px;">
-        <img src="https://t2.uc.ltmcdn.com/images/8/3/2/img_como_saber_si_mi_gato_tiene_sida_25238_orig.jpg" class="animal_pic card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Para el (más) consentido </h5>
-          <p class="card-text">Consejos para mantener al minino feliz y evitar sus zarpazos.</p>
-          <div><a href="#" class="d-flex justify-content-end btn btn-primary">Gatos</a></div>
-        </div>
+     </div>
+<div class="gato">
+  <div class="card animal intento2" >
+    <img src="https://t2.uc.ltmcdn.com/images/8/3/2/img_como_saber_si_mi_gato_tiene_sida_25238_orig.jpg" class="card-img-top" alt="...">
+    <div class="card-body intento">
+      <h5 class="card-title">Gatos!!</h5>
+      <div class="juntar"> 
+         <p class="card-text">Conocé más...</p>
+      <a href="#headingTwo">
+                <button type="button" class="btn btn-outline-warning">Miau!</button>
+
+      </a>
+
       </div>
+    
+
     </div>
+  </div>
+</div>
+    
 
+    
+
+
+   </div>
 
       <!-- ----------------DIVISION------------ -->
 
@@ -89,7 +95,7 @@
             <div class="card-header" id="headingOne">
               <h2 class="mb-0">
                 <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Cuadro de Vacunación.
+                  Perros.
                 </button>
               </h2>
             </div>
@@ -100,11 +106,12 @@
               </div>
             </div>
           </div>
+
           <div class="card">
             <div class="card-header" id="headingTwo">
               <h2 class="mb-0">
                 <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Collapsible Group Item #2
+                  Gatos                
                 </button>
               </h2>
             </div>
@@ -113,73 +120,10 @@
                 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
               </div>
             </div>
-          </div>
-          <div class="card">
-            <div class="card-header" id="headingThree">
-              <h2 class="mb-0">
-                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Collapsible Group Item #3
-                </button>
-              </h2>
-            </div>
-            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-              <div class="card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-              </div>
-            </div>
-          </div>
+         
         </div>
 
-        <!-- --------- GATOS ---------- -->
-
-        <div class="accordion2" id="accordionExample">
-          <div class="card">
-            <div class="card-header" id="headingOne">
-              <h2 class="mb-0">
-                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Cuadro de Vacunación.
-                </button>
-              </h2>
-            </div>
-        
-            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-              <div class="card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-header" id="headingTwo">
-              <h2 class="mb-0">
-                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Collapsible Group Item #2
-                </button>
-              </h2>
-            </div>
-            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-              <div class="card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-header" id="headingThree">
-              <h2 class="mb-0">
-                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Collapsible Group Item #3
-                </button>
-              </h2>
-            </div>
-            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-              <div class="card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-
+      
 
       </div>
      

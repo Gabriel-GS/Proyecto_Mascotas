@@ -3,38 +3,32 @@
     width: 130px;
 }
 .header {
-    background: url(./assets/img/Collages/carousel3.jpg) no-repeat center;
-    background-size: cover;
-    min-height: 70vh;
-  }
-  .header .navbar {
-    background-color: transparent !important;
-  }
-  h1{
-    text-shadow: 0 0 10px red;
-  }
-h2{
-    text-shadow: 0 0 10px red;
+  background: url(./assets/img/Collages/gato-2.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 80vh;
+
+}
+
+.header .navbar {
+  background-color: transparent !important;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  
 }
 .tarjetas{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-.cards_div {
-  background-color: rgb(95, 200, 200);
+  background-color: rgb(54, 204, 150);
   padding: 2% 3% 2% 3%;
-}
-
-.card-text {
-  font-size: medium;
-}
-.animal_pic {
-  margin-top: 10px;
-  padding: 1%;
-}
-.divisores{
   display: flex;
   justify-content: space-around;
-
+}
+.intento{
+  height: 140px;
+}
+.intento2{
+  width: 16rem;
+}
+.juntar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
