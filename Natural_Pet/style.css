@@ -1,3 +1,7 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .logo{
     height: 110px;
     width: 130px;
@@ -116,6 +120,12 @@ nav > div a.nav-item.nav-link:focus
   align-items: center;
   height: 250px;
   width: 400px;
+}
+.tarjetasP{
+  background-image: url(./assets/img/Collages/huellitas1.jpg);
+
+  display: flex;
+  justify-content: space-around;
 }
 
 
