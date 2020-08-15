@@ -127,6 +127,15 @@ nav > div a.nav-item.nav-link:focus
   display: flex;
   justify-content: space-around;
 }
-
+.tarjetasG{
+  display: flex;
+  justify-content: space-around;
+  background-image: url(./assets/img/Collages/huellitas1.jpg);
+  
+}
+.imggato{
+  width: 386px;
+  height: 386px;
+}
 
 
